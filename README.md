@@ -1,4 +1,4 @@
-# hackingGame
+## hackingGame
 # How to run: 
-# npm install
-# grunt
+ npm install
+ grunt
