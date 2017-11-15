@@ -1,1 +1,4 @@
-# ld39
+# hackingGame
+# How to run: 
+# npm install
+# grunt
