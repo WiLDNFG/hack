@@ -12,6 +12,6 @@ window.onload = function() {
 	g_game.phaserGame.state.add('Splash', SplashScreen);
 	g_game.phaserGame.state.add('game', GameState);
 	g_game.phaserGame.state.start('Boot');
-	//Ey.
+	//Setting this thing up is extremely painful, like damn it.
 
 };
