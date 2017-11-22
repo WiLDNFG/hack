@@ -1,10 +1,15 @@
-var GameState = function(game) {
-};
+var GameState = function(game) {};
 
 
 GameState.prototype.create = function() {
 
-  this.game.add.image(0, 0, 'background');
+    var testPlayfield = [
+        [1, 1, 1, 1, 0, 1],
+        [0, 1, 1, 1, 1, 1],
+        [0, 1, 1, 1, 1, 1],
+        [0, 1, 1, 1, 1, 1],
+    ];
 
-  console.log('game started');
+    var grid = Grid(this.game, this.game.world.centerX, this.game.world.centerY, testPlayfield);
+
 };

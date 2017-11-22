@@ -6,5 +6,7 @@ window.g_game = {
 	baseHeight: 480,
 	scale: 3,
 	masterVolume: 0.3,
-	sfx: {}
+	sfx: {},
+    GRID_SIZE : 32,
+
 };
